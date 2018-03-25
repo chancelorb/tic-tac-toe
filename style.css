@@ -1,5 +1,7 @@
 header {
   text-align: center;
+  margin: auto;
+  width: 70%;
 }
 button{
   background-color: red;
@@ -13,10 +15,14 @@ h1 {
   font-size: 60px;
   margin-bottom: -10px;
 }
+h2 {
+  border: 3px solid green;
+  border-radius: 20%;
+}
 
 .field{
   margin: auto;
-  width: 70%;
+  width: 60%;
   text-align: center;
 
 }
@@ -28,25 +34,47 @@ h1 {
 }
 .colom {
   float: left;
-  width: 30%;
-  height: 180px;
-  border: 3px solid green;
+  width: 31.9%;
+  height: 120px;
 }
 
 .one {
   border-bottom: 3px solid green;
+  border-right: 3px solid green;
 }
 .two {
-  border: 3px solid green;
-  //border-bottom: 3px solid green;
+  border-bottom: 3px solid green;
 }
 .tree {
-  border: 3px solid green;
-  //border-bottom: 3px solid green;
+  border-bottom: 3px solid green;
+  border-left: 3px solid green;
+}
+.four {
+  border-bottom: 3px solid green;
+  border-right: 3px solid green;
+}
+.five {
+  border-bottom: 3px solid green;
+}
+.six {
+  border-bottom: 3px solid green;
+  border-left: 3px solid green;
+}
+.seven {
+  border-right: 3px solid green;
+}
+.nine {
+  border-left: 3px solid green;
 }
 .playerX {
   background-image: url(http://www.i2clipart.com/cliparts/8/9/e/0/clipart-red-cross-512x512-89e0.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 130px auto;
+  background-size: 100px auto;
+}
+.playerO {
+  background-image: url(http://www.dreamincode.net/forums/uploads/monthly_10_2010/post-0-12884151170642.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
 }
