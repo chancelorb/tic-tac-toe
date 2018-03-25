@@ -1,0 +1,52 @@
+header {
+  text-align: center;
+}
+button{
+  background-color: red;
+  color: white;
+}
+body{
+  background-color: black;
+  color: yellow;
+}
+h1 {
+  font-size: 60px;
+  margin-bottom: -10px;
+}
+
+.field{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+
+}
+.row{
+
+  position: relative;
+  margin: auto;
+
+}
+.colom {
+  float: left;
+  width: 30%;
+  height: 180px;
+  border: 3px solid green;
+}
+
+.one {
+  border-bottom: 3px solid green;
+}
+.two {
+  border: 3px solid green;
+  //border-bottom: 3px solid green;
+}
+.tree {
+  border: 3px solid green;
+  //border-bottom: 3px solid green;
+}
+.playerX {
+  background-image: url(http://www.i2clipart.com/cliparts/8/9/e/0/clipart-red-cross-512x512-89e0.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px auto;
+}
