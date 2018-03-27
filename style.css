@@ -39,32 +39,32 @@ h2 {
   height: 120px;
 }
 
-#one {
+.one {
   border-bottom: 3px solid green;
   border-right: 3px solid green;
 }
-#two {
+.two {
   border-bottom: 3px solid green;
 }
-#tree {
+.tree {
   border-bottom: 3px solid green;
   border-left: 3px solid green;
 }
-#four {
+.four {
   border-bottom: 3px solid green;
   border-right: 3px solid green;
 }
-#five {
+.five {
   border-bottom: 3px solid green;
 }
-#six {
+.six {
   border-bottom: 3px solid green;
   border-left: 3px solid green;
 }
-#seven {
+.seven {
   border-right: 3px solid green;
 }
-#nine {
+.nine{
   border-left: 3px solid green;
 }
 .playerX {
