@@ -21,28 +21,28 @@ jQuery(function() {
         count++;
         $(this).attr('id', 'x');
         $('h2').text(`It's your turn '0'`);
-        if (one === 'o' && two === 'o' && tree === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (four === 'o' && five === 'o' && six === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (seven === 'o' && eight === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (one === 'o' && four === 'o' && seven === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (eight === 'o' && five === 'o' && two === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (tree === 'o' && six === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (seven === 'o' && five === 'o' && tree === 'o') {$('.winner').text(`O IS THE WINNER`)};
-        if (one === 'o' && five === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`)};
+        if (one === 'o' && two === 'o' && tree === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (four === 'o' && five === 'o' && six === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (seven === 'o' && eight === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (one === 'o' && four === 'o' && seven === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (eight === 'o' && five === 'o' && two === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (tree === 'o' && six === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (seven === 'o' && five === 'o' && tree === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
+        if (one === 'o' && five === 'o' && nine === 'o') {$('.winner').text(`O IS THE WINNER`); alert('O is the winner')};
         //console.log(playerBoard)
       } else {
         $(this).addClass('playerO');
         count++;
         $(this).attr('id', 'o');
         $('h2').text(`It's your turn 'X'`);
-        if (one === 'x' && two === 'x' && tree === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (four === 'x' && five === 'x' && six === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (seven === 'x' && eight === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (one === 'x' && four === 'x' && seven === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (eight === 'x' && five === 'x' && two === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (tree === 'x' && six === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (one === 'x' && five === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`)};
-        if (seven === 'x' && five === 'x' && tree === 'x') {$('.winner').text(`X IS THE WINNER`)};
+        if (one === 'x' && two === 'x' && tree === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (four === 'x' && five === 'x' && six === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (seven === 'x' && eight === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (one === 'x' && four === 'x' && seven === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (eight === 'x' && five === 'x' && two === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (tree === 'x' && six === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (one === 'x' && five === 'x' && nine === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
+        if (seven === 'x' && five === 'x' && tree === 'x') {$('.winner').text(`X IS THE WINNER`); alert('X is the winner')};
         //console.log(playerBoard)
       }
     } else if (count === 9) {
